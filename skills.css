@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-color: #bab7b6;
+}
+.head{
+	margin-top: 70px;
+	text-align: center;
+}
+.head h1{
+	margin-bottom: 5px;
+}
+.skill h3{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.skills{
+	display: flex;
+	justify-content: space-evenly;
+}
+.skills-ind{
+	width: 290px;
+	height: 190px;
+	background-color: #8a8787;
+	align-content: center;
+	padding-left: 50px;
+	border-radius: 5px;
+}
+.skills-ind:hover{
+	width: 300px;
+	height: 200px;
+	background-color: #423e3e;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.7s ease-in-out;
+
+}
+.skills-ind img{
+	width: 50px;
+	height: 50px;
+	margin-left: 110px;
+}
+.skills-ind h2{
+	margin-left: 50px;
+}
+.skills-ind p{
+	margin-left: -10px;
+}
+.languages h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.btn-lan{
+	display: flex;
+	justify-content: space-evenly;
+}
+.btn-lang{
+	width: 200px;
+	height: 40px;
+	border: none;
+	background-color: transparent;
+	font-size: 20px;
+}
+.btn-lang:hover{
+	cursor: pointer;
+	background-color: #877572;
+	transition: 0.8s ease-in-out;
+	border-radius: 6px;
+	font-size: 30px;
+}
+.edu-exp{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+.edu h1{
+	margin-bottom: 10px;
+}
+.edu{
+	width: 500px;
+	height: 500px;
+	margin-left: 45px;
+	text-align: center;
+	padding-top: 10px;
+}
+.edu-1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.exp h1{
+	margin-bottom: 10px;
+}
+.btn-cv{
+	width: 150px;
+	height: 50px;
+	border: none;
+	background-color: #a39693;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-size: 11px;
+}
+.btn-cv:hover{
+	background-color: #4f4b4a;
+	transition: 0.9s ease-in-out;
+	border-radius: 7px;
+	font-size: 16px;
+
+}
+@media screen and(max-width: 600px){
+	body{
+		font-size: 5px;
+	}
+	.btn-cv{
+		width: 90px;
+		height: 20px;
+		font-size: 5px;
+	}
+	.btn-cv:hover{
+		font-size: 3px;
+	}
+}
+

@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+footer{
+	width: 100%;
+	height: 250px;
+	background-color: #474443;
+	margin-top: 100px;
+}
+.footer-1{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 20px;
+}
+.q-links h4{
+	margin-bottom: 10px;
+}
+.q-links ul li{
+	list-style: none;
+}
+.q-links ul li a{
+	text-decoration: none;
+	color: white;
+}
+.q-links ul li a:hover{
+	color: #40150c;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: cursive;
+	transition: 0.5s ease-in-out;
+}
+.contact h4{
+	margin-bottom: 10px;
+}
+.contact h6{
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.address a{
+	text-decoration: none;
+	color: #f2dad5;
+}
+.phone a{
+	text-decoration: none;
+	color: #f2dad5;
+}
+.email a{
+	text-decoration: none;
+	color: #f2dad5;
+}
+.address a:hover{
+	color: blue;
+}
+.phone a:hover{
+	color: blue;
+}
+.email a:hover{
+	color: blue;
+}
+.footer-2{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.copy{
+	margin-left: 10px;
+}
+.icon{
+	margin-right: 10px;
+}
+.icon a{
+	margin-right: 25px;
+	text-decoration: none;
+}
+.icon a i{
+	width: 30px;
+	height: 30px;
+}

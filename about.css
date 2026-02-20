@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+   color: white;
+   background-color: #4c4d4c;
+}
+section{
+	margin-top: 100px;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+.abt{
+	display: flex;
+	justify-content: space-evenly;
+}
+.bio h2{
+	margin-bottom: 20px;
+	color:#f7b1a3 ;
+
+}
+.btn-cv{
+	margin-top: 20px;
+	width: 150px;
+	height: 45px;
+	border: none;
+	background-color: #f7b1a3;
+	border-radius: 5px;
+}
+.btn-cv:hover{
+	width: 160px;
+	height: 50px;
+	transition: 0.9s ease-in-out;
+	background-color: #f2d2cb;
+	font-size: 7px;
+	border-radius: 10px;
+}
+@media screen and(max-width: 600px){
+	body{
+		font-size: 5px;
+	}
+	.btn-cv{
+		width: 90px;
+		height: 25px;
+	}
+	.btn-cv:hover{
+		width: 100px;
+		height: 30px;
+		font-size: 4px;
+	}
+}

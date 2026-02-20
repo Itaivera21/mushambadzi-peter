@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-color: #1f1b1b;
+	color: white;
+} 
+.me{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+.bio h1,h2{
+	font-weight: bold;
+	margin-top: 10px;
+}
+.bio h2{
+	margin-bottom: 15px;
+}
+.main-btn{
+	margin-top: 10px;
+	width: 170px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: #c44127;
+}
+.main-btn:hover{
+	cursor: pointer;
+	background-color: #40150c;
+	transition: 0.8s ease-in-out;
+}
+@media screen and (max-width: 600px){
+	body{
+		font-size: 5px;
+	}
+	.main-btn{
+		width: 100px;
+		height: 20px;
+	}
+}
